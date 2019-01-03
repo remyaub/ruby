@@ -7,13 +7,13 @@ start = 0
 while start <= emailsTotal
 	
 
-if start < 10
-	puts "jean.dupont 0#{start}@email.fr"
+	if start < 10
+		puts "jean.dupont 0#{start}@email.fr"
 
-else
-	puts "jean.dupont#{start}@email.fr"
-	
-end
-start += 1
+	else
+		puts "jean.dupont#{start}@email.fr"
+		
+	end
+	start += 1
 end
 	
